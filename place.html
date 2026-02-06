@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kuala Selangor Attractions</title>
+    <link rel="shortcut icon" href="picture/logo.jpeg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="place">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="webmaster.html" class="logo">
+                <img src="picture/logo1.jpeg" alt="Logo" class="logo-image">
+            </a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="history.html" class="nav-link">History</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="attractions.html" class="nav-link dropdown-toggle">Attractions</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="place.html">Place</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="gallery.html" class="nav-link dropdown-toggle">Gallery</a>
+                     <ul class="dropdown-menu">
+                        <li><a href="gallery.html">Getting There</a></li>
+                        <li><a href="gallery.html">Picture gallery</a></li>
+                    </ul>      
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="info.html" class="nav-link dropdown-toggle">Info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="info.html">FAQ</a></li>
+                        <li><a href="info.htm">Contact</a></li>
+                        <li><a href="info.htm">Map</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <a href="place.html">
+            <button class="cta-button">GET RECOMMENDATIONS</button></a>
+        </div>
+    </nav>
+
+    <h1>Key Places in Kuala Selangor</h1>
+
+    <div class="attraction-container">
+
+        <div class="attraction" onclick="openModal('picture/sky mirror.jpg')">
+            <img src="picture/sky mirror.jpg" alt="Sky Mirror">
+            <div class="info">
+                <h3>Sky Mirror (Sasaran Beach)</h3>
+                <p>A shallow sandbank that reflects the sky, accessible by boat during low tide.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/firefly.jpg')">
+            <img src="picture/firefly.jpg" alt="Kampung Kuantan Firefly Park">
+            <div class="info">
+                <h3>Kampung Kuantan Firefly Park</h3>
+                <p>Traditional sampan rides to view fireflies along the Selangor River.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/melawati.jpg')">
+            <img src="picture/melawati.jpg" alt="Bukit Melawati">
+            <div class="info">
+                <h3>Bukit Melawati</h3>
+                <p>Historical hill featuring a lighthouse, fort ruins, and silver-leaf monkeys.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/temple.jpg')">
+            <img src="picture/temple.jpg" alt="Sri Shakti Temple">
+            <div class="info">
+                <h3>Sri Shakti Dhevasthanam</h3>
+                <p>A magnificent Hindu temple known for its intricate architecture.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/nature_park.jpg')">
+            <img src="picture/nature_park.jpg" alt="Kuala Selangor Nature Park">
+            <div class="info">
+                <h3>Kuala Selangor Nature Park</h3>
+                <p>A mangrove sanctuary ideal for birdwatching and wildlife spotting.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/eagle.jpg')">
+            <img src="picture/eagle.jpg" alt="Eagle Feeding">
+            <div class="info">
+                <h3>Eagle Feeding Boat Tours</h3>
+                <p>Boat tours to watch eagles swoop down to feed in the estuary.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/blue_tears.jpg')">
+            <img src="picture/blue_tears.jpg" alt="Blue Tears">
+            <div class="info">
+                <h3>Blue Tears (Sasaran Beach)</h3>
+                <p>Bioluminescent plankton creating glowing blue water at night.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/pasir.jpg')">
+            <img src="picture/pasir.jpg" alt="Pasir Penambang">
+            <div class="info">
+                <h3>Pasir Penambang</h3>
+                <p>A fishing village famous for affordable and fresh seafood.</p>
+            </div>
+        </div>
+
+        <div class="attraction" onclick="openModal('picture/firefly_park.jpg')">
+            <img src="picture/firefly_park.jpg" alt="Kampung Belimbing Firefly Park">
+            <div class="info">
+                <h3>Kampung Belimbing Firefly Park</h3>
+                <p>A popular firefly boat tour destination often paired with seafood dinners.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImg" alt="Enlarged view">
+        </div>
+    </div>
+
+        <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kuala Selangor.</h3>
+                    <p>Kuala Selangor is a town located in Selangor, Malaysia. 
+                "Kuala" means river mouth in the Malay language, and 
+                Kuala Selangor is a small town where the Selangor River (Sungai Selangor) meets the sea. </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="info@tourismselangor.my">Email: info@tourismselangor.my</a></li>
+                        <li>Phone: +603 5513 2000</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/TourismSelangor">Facebook</a>
+                        <a href="https://www.instagram.com/discoverselangor/">Instagram</a>
+                        <a href="https://x.com/TourismSelangor">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 For assignment purposes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+    <script> 
+        // place //
+
+function openModal(imageSrc) {
+    document.getElementById("imageModal").style.display = "block";
+    document.getElementById("modalImg").src = imageSrc;
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+
+// Optional: Close modal if user clicks outside the image
+window.onclick = function(event) {
+    let modal = document.getElementById("imageModal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+    </script>
+
+</body>
+</html>

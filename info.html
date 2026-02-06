@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info - Kuala Selangor</title>
+    <link rel="shortcut icon" href="picture/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="webmaster.html" class="logo">
+                <img src="picture/logo1.jpeg" alt="Logo" class="logo-image">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="history.html" class="nav-link">History</a></li>
+                <li class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="attractions.html" class="nav-link dropdown-toggle">Attractions</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="place.html">Place</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="gallery.html" class="nav-link dropdown-toggle">Gallery</a>
+                     <ul class="dropdown-menu">
+                        <li><a href="gallery.html">Getting There</a></li>
+                        <li><a href="gallery.html">Picture gallery</a></li>
+                    </ul>      
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="info.html" class="nav-link dropdown-toggle">Info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="cta-button">GET RECOMMENDATIONS</button>
+        </div>
+    </nav>
+
+    <main class="info">
+        <section class="faq-section" id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What inspired you to pursue your career?</h3>
+                <p>Growing up in Kuala Selangor, I was inspired by the community and nature. My passion for technology and problem solving guided my career path.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are your hobbies?</h3>
+                <p>I enjoy photography, painting, hiking, and exploring local culture.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can people contact you?</h3>
+                <p>You can reach me via email or using the contact form provided on this page.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are your future goals?</h3>
+                <p>I aim to expand my skills in technology and continue contributing to my community in meaningful ways.</p>
+            </div>
+        </section>
+
+        <section class="contact-map-section" id="map">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15931.3263725547!2d101.2415844!3d3.3424169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc0469b897996b%3A0xe2130e92f254924!2sKuala%20Selangor%2C%20Selangor!5e0!3m2!1sen!2smy!4v1700000000000" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <div class="contact-form-container" id="contact">
+                <h3>Contact Us</h3>
+                <form id="infoContactForm">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kuala Selangor.</h3>
+                    <p>Kuala Selangor is a town located in Selangor, Malaysia. 
+                "Kuala" means river mouth in the Malay language, and 
+                Kuala Selangor is a small town where the Selangor River (Sungai Selangor) meets the sea. </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="info@tourismselangor.my">Email: info@tourismselangor.my</a></li>
+                        <li>Phone: +603 5513 2000</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/TourismSelangor">Facebook</a>
+                        <a href="https://www.instagram.com/discoverselangor/">Instagram</a>
+                        <a href="https://x.com/TourismSelangor">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 For assignment purposes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="info.js"></script>
+</body>
+</html>

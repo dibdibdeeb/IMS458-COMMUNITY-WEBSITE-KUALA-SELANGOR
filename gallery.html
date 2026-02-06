@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUALA SELANGOR</title>
+    <link rel="shortcut icon" href="picture/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="webmaster.html" class="logo">
+                <img src="picture/logo1.jpeg" alt="Logo" class="logo-image">
+            </a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="history.html" class="nav-link">History</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="attractions.html" class="nav-link dropdown-toggle">Attractions</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="place.html">Place</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="gallery.html" class="nav-link dropdown-toggle">Gallery</a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#gettingthere">Getting There</a></li>
+                        <li><a href="#gallery">Picture gallery</a></li>
+                    </ul>      
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="info.html" class="nav-link dropdown-toggle">Info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="info.html">FAQ</a></li>
+                        <li><a href="info.htm">Contact</a></li>
+                        <li><a href="info.htm">Map</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <a href="place.html">
+            <button class="cta-button">GET RECOMMENDATIONS</button></a>
+        </div>
+    </nav>
+
+    <!-- Getting There Section -->
+    <section class="content-section"id="gettingthere">
+        <div class="getting-there-container">
+            <h1 class="section-title">Getting to Kuala Selangor</h1>
+            
+
+            <!-- Transportation Options -->
+            <div class="transport-grid">
+                <!-- By Car Section -->
+                <div class="transport-card">
+                    <div class="transport-header">
+                        <div class="transport-icon">🚗</div>
+                        <h2>Getting to Kuala Selangor: By Car</h2>
+                    </div>
+                    
+                    <div class="route-section">
+                        <h3>Suggestion Route 1: Traditional Route</h3>
+                        <div class="route-details">
+                            <span class="route-steps">Shah Alam → Subang Jaya → Klang → Kuala Selangor</span>
+                        </div>
+                    </div>
+
+                    <div class="route-section">
+                        <h3>Suggestion Route 2: LATAR Expressway</h3>
+                        <p class="route-description">Using LATAR Expressway to Kuala Selangor, exit at Ijok, go to Kuala Selangor</p>
+                        
+                        <div class="route-steps-detailed">
+                            <p><strong>Following is the four enter points to LATAR Expressway:</strong></p>
+                            <ol>
+                                <li>
+                                    <strong>Kabueng</strong> - Enter LATAR Expressway at Persiangan Templer - Exit at Ijok - Kuala Selangor
+                                </li>
+                                <li>
+                                    <strong>Ijok Club</strong> - North Klang Valley Expressway via Persimpangan Rawang Selatan Exit 1.5 (Enter to Guthrie Corridor Expressway) - Enter to LATAR Express at Ijok - Kuala Selangor
+                                </li>
+                                <li>
+                                    <strong>Shah Alam / Subang</strong> - Enter Guthrie Corridor Expressway - Enter to LATAR Express at Persimpangan Kapar Exit 2306 - Exit at Ijok - Kuala Selangor
+                                </li>
+                            </ol>
+                        </div>
+
+                        <p class="route-note">Following is the Map of LATAR Expressway (Please click on the map for bigger view)</p>
+                        
+                        <div class="gallery-item large" onclick="openModal('picture/latar.jpg', 'Map of LATAR Expressway')">
+                    <img src="picture/latar.jpg"alt="Dotonbori & Shinsaibashi">
+                    <div class="gallery-overlay">
+                        <h3>Map of LATAR Expressway</h3>
+                    </div>
+                </div>
+                    </div>
+                </div>
+
+                 <!-- By Bus Section -->
+                <div class="transport-card">
+                    <div class="transport-header">
+                        <div class="transport-icon">🚌</div>
+                        <h2>Getting to Kuala Selangor: By Bus</h2>
+                    </div>
+                    
+                    <div class="bus-section">
+                        <h3>Kuala Lumpur to Kuala Selangor / Kuala Selangor to Kuala Lumpur</h3>
+                        
+                        <div class="bus-info">
+                            <div class="info-item">
+                                <strong>Bus No 100</strong>
+                                <p>Hab Lebuh Pudu to Kuala Selangor (Terminal Bas Bandar Malawati)</p>
+                                <p>Operated by Selangor Omnibus</p>
+                                <p>Starts operating at 5:15 AM and ends at 8:00 PM</p>
+                                <p>About 2.5-3 hours from Kuala Lumpur to Kuala Selangor.</p>
+                                <p><strong>One-way fare is RM9.00</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="bus-station-maps">
+                            <div class="station-map">
+                                <h4>Hab Bas Lebuh Pudu</h4>
+                                <div class="map-embed">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8025130057704!2d101.6981193!3d3.1467527000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49d22b997e83%3A0xe7d4dd537aeb255f!2sHab%20Lebuh%20Pudu%20(LP)!5e0!3m2!1sen!2smy!4v1770371053683!5m2!1sen!2smy" 
+                                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <div class="map-info">
+                                        <p><strong>Bus Hab Lebuh Pudu (LF)</strong></p>
+                                        <p>50050, 52-48, Jalan Tun Tan Siew Sin, Kuala Lumpur City Centre, 50050 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+                                        <p>⭐ 3.1 - 21 reviews</p>
+                                        <a href="https://maps.google.com/?q=Hab+Bas+Lebuh+Pudu" target="_blank" class="view-map-link">View larger map</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="station-map">
+                                <h4>Terminal Bas Bandar Malawati</h4>
+                                <div class="map-embed">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.081603640653!2d101.2522100749719!3d3.330016146644781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ccf49e8b74a2c3%3A0xdadde5a0f9efd005!2sTerminal%20Bas%20Bandar%20Malawati!5e0!3m2!1sen!2smy!4v1770371149463!5m2!1sen!2smy" 
+                                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <div class="map-info">
+                                        <p><strong>Terminal Bas Bandar Malawati</strong></p>
+                                        <p>Bandar Malawati, 45000 Kuala Selangor, Selangor</p>
+                                        <p>⭐ 3.7 - 14 reviews</p>
+                                        <a href="https://maps.google.com/?q=Terminal+Bas+Bandar+Malawati" target="_blank" class="view-map-link">View larger map</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Gallery Section -->
+    <section class="gallery-content-section" id="gallery">
+        <div class="gallery-container">
+            <h3 class="section-title">Picture Gallery</h3>
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Large Image 1 -->
+                <div class="gallery-item large" onclick="openModal('picture/cultureimage2.jpg', 'Bukit Melawati')">
+                    <img src="picture/cultureimage2.jpg" alt="Bukit Melawati">
+                    <div class="gallery-overlay">
+                        <h3>Bukit Melawati</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 1 -->
+                <div class="gallery-item" onclick="openModal('picture/firefly_park.jpg', 'Firefly Park')">
+                    <img src="picture/firefly_park.jpg" alt="Firefly Park">
+                    <div class="gallery-overlay">
+                        <h3>Firefly Park</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 2 -->
+                <div class="gallery-item" onclick="openModal('picture/Sky.jpg', 'Sky Mirror')">
+                    <img src="picture/sky.jpg" alt="Sky Mirror">
+                    <div class="gallery-overlay">
+                        <h3>Sky Mirror</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 3 -->
+                <div class="gallery-item" onclick="openModal('picture/pantai.jpeg', 'Pantai Remis')">
+                    <img src="picture/pantai.jpeg" alt="Pantai Remis">
+                    <div class="gallery-overlay">
+                        <h3>Pantai Remis</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 4 -->
+                <div class="gallery-item" onclick="openModal('picture/marine.png', 'Boat Riding')">
+                    <img src="picture/marine.png" alt="Boat Riding">
+                    <div class="gallery-overlay">
+                        <h3>Boat Riding</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 5 -->
+                <div class="gallery-item" onclick="openModal('picture/pasir.jpg', 'Fishing Village')">
+                    <img src="picture/pasir.jpg" alt="Fishing Village">
+                    <div class="gallery-overlay">
+                        <h3>Fishing Village</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 6 -->
+                <div class="gallery-item" onclick="openModal('picture/Cfishing.jpg', 'Fishing Village')">
+                    <img src="picture/Cfishing.jpg" alt="Fishing Village">
+                    <div class="gallery-overlay">
+                        <h3>Fishing Village</h3>
+                    </div>
+                </div>
+
+                <!-- Large Image 2 -->
+                <div class="gallery-item large" onclick="openModal('picture/Cvolunteer2.jpg', 'Volunteers')">
+                    <img src="picture/Cvolunteer2.jpg" alt="Volunteer">
+                    <div class="gallery-overlay">
+                        <h3>Volunteer Event</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 7 -->
+                <div class="gallery-item" onclick="openModal('picture/Clocalmarket.jpeg', 'Night Market')">
+                    <img src="picture/Clocalmarket.jpeg" alt="Night Market">
+                    <div class="gallery-overlay">
+                        <h3>Night Market</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 8 -->
+                <div class="gallery-item" onclick="openModal('picture/Cartshandicrafts.jpg', 'handicraft')">
+                    <img src="picture/Cartshandicrafts.jpg" alt="handicraft">
+                    <div class="gallery-overlay">
+                        <h3>Handicraft</h3>
+                    </div>
+                </div>
+
+                <!-- Large Image 3 -->
+                <div class="gallery-item large" onclick="openModal('picture/Cfestival.jpg', 'Festival')">
+                    <img src="picture/Cfestival.jpg" alt="Festival">
+                    <div class="gallery-overlay">
+                        <h3>Festival</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 9 -->
+                <div class="gallery-item" onclick="openModal('picture/eagle.jpg', 'Eagle Feeding')">
+                    <img src="picture/eagle.jpg" alt="Eagle Feeding">
+                    <div class="gallery-overlay">
+                        <h3>Eagle Feeding</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 10 -->
+                <div class="gallery-item" onclick="openModal('picture/desserts.jpg', 'Dessert')">
+                    <img src="picture/desserts.jpg" alt="Dessert">
+                    <div class="gallery-overlay">
+                        <h3>Dessert</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 11 -->
+                <div class="gallery-item" onclick="openModal('picture/blue.jpg', 'Blue Tears Lake')">
+                    <img src="picture/blue.jpg" alt="Blue Tears Lake">
+                    <div class="gallery-overlay">
+                        <h3>Blue Tears Lake</h3>
+                    </div>
+                </div>
+
+                <!-- Small Image 12 -->
+                <div class="gallery-item" onclick="openModal('picture/hotel.jpg', 'Resort')">
+                    <img src="picture/hotel.jpg" alt="Resort">
+                    <div class="gallery-overlay">
+                        <h3>Resort</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kuala Selangor.</h3>
+                    <p>Kuala Selangor is a town located in Selangor, Malaysia. 
+                "Kuala" means river mouth in the Malay language, and 
+                Kuala Selangor is a small town where the Selangor River (Sungai Selangor) meets the sea. </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="info@tourismselangor.my">Email: info@tourismselangor.my</a></li>
+                        <li>Phone: +603 5513 2000</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/TourismSelangor">Facebook</a>
+                        <a href="https://www.instagram.com/discoverselangor/">Instagram</a>
+                        <a href="https://x.com/TourismSelangor">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 For assignment purposes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>

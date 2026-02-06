@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUALA SELANGOR</title>
+    <link rel="shortcut icon" href="picture/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="webmaster.html" class="logo">
+                <img src="picture/logo1.jpeg" alt="Logo" class="logo-image">
+            </a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="history.html" class="nav-link">History</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="attractions.html" class="nav-link dropdown-toggle">Attractions</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="place.html">Place</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="gallery.html" class="nav-link dropdown-toggle">Gallery</a>
+                     <ul class="dropdown-menu">
+                        <li><a href="gallery.html">Getting There</a></li>
+                        <li><a href="gallery.html">Picture gallery</a></li>
+                    </ul>      
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="info.html" class="nav-link dropdown-toggle">Info</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="info.html">FAQ</a></li>
+                        <li><a href="info.htm">Map</a></li>
+                        <li><a href="info.htm">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <a href="place.html">
+            <button class="cta-button">GET RECOMMENDATIONS</button></a>
+        </div>
+    </nav>
+
+    <section class="community">
+        <div class="food-slider-wrapper">
+            <div class="food-slider">
+                <div class="food-card">
+                    <img src="picture/Clocalmarket.jpeg" style="width:100%; height:220px; object-fit:cover;">
+                    <div class="food-card-content">
+                        <h3>Local Markets</h3>
+                        <p>Kuala Selangor's bustling markets showcase local produce, crafts, and community interactions.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="picture/Cfestival.jpg" style="width:100%; height:220px; object-fit:cover;">
+                    <div class="food-card-content">
+                        <h3>Community Festivals</h3>
+                        <p>The town hosts annual festivals highlighting traditional dances, music, and artisanal crafts.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="picture/Cfishing.jpg" style="width:100%; height:220px; object-fit:cover;">
+                    <div class="food-card-content">
+                        <h3>Fishing Villages</h3>
+                        <p>Communities maintain traditional fishing practices, creating a close-knit maritime culture.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="picture/Cartshandicrafts.jpg" style="width:100%; height:220px; object-fit:cover;">
+                    <div class="food-card-content">
+                        <h3>Art & Handicrafts</h3>
+                        <p>Local artists and craftsmen sell handmade goods reflecting Kuala Selangor's rich heritage.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="picture/Cvolunteer.jpg" style="width:100%; height:220px; object-fit:cover;">
+                    <div class="food-card-content">
+                        <h3>Volunteer Programs</h3>
+                        <p>Community-driven initiatives such as river clean-ups and mangrove conservation.</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="picture/Ctogether.jpg" style="width:100%; height:220px; object-fit:cover;">
+                    <div class="food-card-content">
+                        <h3>Local Cuisine Sharing</h3>
+                        <p>Communities gather to share recipes and meals during cultural events.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow" id="prev">◀</button>
+            <button class="slider-arrow" id="next">▶</button>
+        </div>
+    </section>
+
+    <div class="food-modal" id="foodModal">
+        <div class="food-modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="food-modal-inner">
+                <div class="food-modal-left">
+                    <img src="" alt="Community Image" id="modalImage">
+                </div>
+                <div class="food-modal-right">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDesc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kuala Selangor.</h3>
+                    <p>Kuala Selangor is a town located in Selangor, Malaysia. 
+                "Kuala" means river mouth in the Malay language, and 
+                Kuala Selangor is a small town where the Selangor River (Sungai Selangor) meets the sea. </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="info@tourismselangor.my">Email: info@tourismselangor.my</a></li>
+                        <li>Phone: +603 5513 2000</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/TourismSelangor">Facebook</a>
+                        <a href="https://www.instagram.com/discoverselangor/">Instagram</a>
+                        <a href="https://x.com/TourismSelangor">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 For assignment purposes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="community.js"></script>
+</body>
+</html>
